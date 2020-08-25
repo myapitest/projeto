@@ -6,4 +6,4 @@ install:
 script:
   - make test
 afetr_success:
-  - curl -k -u $ZEROBUGUID:$ZEROBUGTOKEN --request POST -H "Content-Type:application/json" -d '{"pit":"127","targetid":"HG0m*$C7bz94%M@dP*u81598383518","ci":"Travis CI","tipo":"14"}' https://zerobug.co/ScanTarget/
+  - curl -k -u $ZEROBUGUID:$ZEROBUGTOKEN --request POST -H "Content-Type:application/json" -d '{"pit":"131","targetid":"$c0$zTHUP%6dXRLbfPEm1598384909","ci":"Travis CI","tipo":"14"}' https://zerobug.co/ScanTarget/
